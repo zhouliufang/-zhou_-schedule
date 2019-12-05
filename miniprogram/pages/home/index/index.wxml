@@ -1,0 +1,18 @@
+<view class="home">
+  <view class="home-card">
+    <text class="card-time">{{nowDate}}\n</text>
+    <text class="card-text">{{todayslogan}}</text>
+    <text class="card-week">{{weekDay}}</text>
+  </view>
+  <view class="home-schedule">
+    <view wx:if="showAdd">
+      <navigator url="" open-type="navigate">
+        <text class="add-icon">+\n</text>
+        <text class="add-text">今日还没有计划哦</text>
+      </navigator>
+    </view>
+    <view wx:else>
+
+    </view>
+  </view>
+</view>

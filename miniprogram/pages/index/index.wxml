@@ -10,7 +10,7 @@
   </view>
   <!-- 进入主页面 -->
   <view class="uploader">
-    <navigator class="uploader-text" url="../home/index"  open-type="navigate">
+    <navigator class="uploader-text" url="../home/index/index"  open-type="navigate">
       <text>进入主页面</text>
     </navigator>
   </view>

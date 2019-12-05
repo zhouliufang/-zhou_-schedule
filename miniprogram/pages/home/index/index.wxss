@@ -1,0 +1,49 @@
+.home {
+  padding: 15rpx 10rpx;
+}
+
+.home-card {
+  width: calc(100% - 50rpx);
+  height: 180rpx;
+  position: relative;
+  background:rgb(99, 196, 99);
+  border-radius: 20rpx;
+  padding: 15rpx;
+  text-align: center;
+  margin-bottom: 20rpx;
+  color: #fff;
+}
+
+.card-time {
+  font-weight: bold;
+  font-size: 36rpx;
+}
+.card-text {
+  font-size: 30rpx;
+}
+.card-week {
+  font-size: 46rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 45rpx;
+}
+
+.home-schedule {
+  border: 1px solid rgb(99, 196, 99);
+  height: auto;
+  width: calc(100% - 50rpx);
+  overflow-y: scroll;
+  border-radius: 20rpx;
+  padding: 20rpx 15rpx;
+  color: rgb(99, 196, 99);
+  text-align: center;
+}
+
+.add-icon {
+  font-size: 58rpx;
+  margin-bottom: 100rpx;
+}
+
+.add-text {
+  font-size: 32rpx;
+}
