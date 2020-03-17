@@ -6,7 +6,7 @@
   </view>
   <view class="home-schedule">
     <view wx:if="showAdd">
-      <navigator url="" open-type="navigate">
+      <navigator url="../addSchedule/index" open-type="navigate">
         <text class="add-icon">+\n</text>
         <text class="add-text">今日还没有计划哦</text>
       </navigator>
